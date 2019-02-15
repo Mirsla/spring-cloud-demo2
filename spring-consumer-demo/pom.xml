@@ -54,6 +54,17 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-ribbon</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>com.mirsla</groupId>
+      <artifactId>entities</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency> <!--  断路器  -->
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-hystrix</artifactId>
+    </dependency>
   </dependencies>
 
   <build>

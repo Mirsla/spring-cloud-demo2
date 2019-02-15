@@ -11,6 +11,7 @@ public class SpringConsumerDemoApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
